@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 
-
-    <name>Hex's Percepts</name>
+    <name>More Horn Colors</name>
     <author>Hex</author>
-    <packageId>Hex.HexsPercepts</packageId>
+    <packageId>Hex.MoreHornColors</packageId>
     <supportedVersions>
         <li>1.4</li>
     </supportedVersions>
     <loadAfter>
-        <li>ludeon.rimworld.ideology</li>
         <li>ludeon.rimworld.biotech</li>
     </loadAfter>
     <description>

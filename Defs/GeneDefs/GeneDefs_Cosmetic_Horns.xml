@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+  <GeneDef ParentName="GeneHeadboneBase">
+    <defName>Headbone_MiniHorns_Yellow</defName>
+    <label>mini-horns</label>
+    <description>Carriers of this gene grow two small horns protruding from the forehead.</description>
+    <iconPath>UI/Gene_HeadboneMinihorns</iconPath>
+    <graphicData>
+      <graphicPath>MiniHorns/MiniHorns</graphicPath>
+      <color>(255, 60, 255)</color>
+      <layer>PostHeadgear</layer>
+    </graphicData>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>knob</symbol></li>
+        <li><symbol>spike</symbol></li>
+        <li><symbol>devil</symbol></li>
+        <li><symbol>demon</symbol></li>
+        <li><symbol>luci</symbol></li>
+        <li><symbol>beelze</symbol></li>
+        <li><symbol>hell</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>spike</symbol></li>
+        <li><symbol>vil</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneHeadboneBase">
+    <defName>Headbone_CenterHorn_Yellow</defName>
+    <label>center-horn</label>
+    <description>Carriers of this gene grow a single horn protruding from the center of the forehead.</description>
+    <iconPath>UI/Gene_HeadboneCenterhorn</iconPath>
+    <graphicData>
+      <graphicPath>CenterHorn/CenterHorn</graphicPath>
+      <color>(255, 60, 255)</color>
+      <layer>PostHeadgear</layer>
+    </graphicData>
+    <symbolPack>
+      <prefixSymbols>
+        <li>
+          <symbol>rhino</symbol>
+          <weight>2</weight>
+        </li>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>knob</symbol></li>
+        <li><symbol>spike</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>spike</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+
+</Defs>
