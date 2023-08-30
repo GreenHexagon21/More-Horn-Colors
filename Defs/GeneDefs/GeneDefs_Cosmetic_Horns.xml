@@ -4,14 +4,17 @@
 
   <GeneDef ParentName="GeneHeadboneBase">
     <defName>Headbone_MiniHorns_Yellow</defName>
-    <label>mini-horns</label>
+    <label>mini-horns - yellow</label>
     <description>Carriers of this gene grow two small horns protruding from the forehead.</description>
-    <iconPath>UI/Gene_HeadboneMinihorns</iconPath>
+    <iconPath>UI/Gene_HeadboneMinihorns_Yellow</iconPath>
     <graphicData>
       <graphicPath>MiniHorns/MiniHorns</graphicPath>
-      <color>(255, 60, 255)</color>
+      <color>(217, 217, 17)</color>
       <layer>PostHeadgear</layer>
     </graphicData>
+    <statOffsets>
+      <ToxicResistance>0.05</ToxicResistance>
+    </statOffsets>
     <symbolPack>
       <prefixSymbols>
         <li><symbol>horn</symbol></li>
@@ -33,14 +36,17 @@
 
   <GeneDef ParentName="GeneHeadboneBase">
     <defName>Headbone_CenterHorn_Yellow</defName>
-    <label>center-horn</label>
+    <label>center-horn yellow</label>
     <description>Carriers of this gene grow a single horn protruding from the center of the forehead.</description>
-    <iconPath>UI/Gene_HeadboneCenterhorn</iconPath>
+    <iconPath>UI/Gene_HeadboneCenterhorn_Yellow</iconPath>
     <graphicData>
       <graphicPath>CenterHorn/CenterHorn</graphicPath>
-      <color>(255, 60, 255)</color>
+      <color>(217, 217, 17)</color>
       <layer>PostHeadgear</layer>
     </graphicData>
+    <statOffsets>
+      <ToxicResistance>0.05</ToxicResistance>
+    </statOffsets>
     <symbolPack>
       <prefixSymbols>
         <li>
@@ -58,5 +64,1056 @@
     </symbolPack>
   </GeneDef>
 
+  <GeneDef ParentName="GeneHeadboneBase">
+    <defName>Headbone_MiniHorns_Green</defName>
+    <label>mini-horns - green</label>
+    <description>Carriers of this gene grow two small horns protruding from the forehead.</description>
+    <iconPath>UI/Gene_HeadboneMinihorns_Green</iconPath>
+    <graphicData>
+      <graphicPath>MiniHorns/MiniHorns</graphicPath>
+      <color>(67, 143, 0)</color>
+      <layer>PostHeadgear</layer>
+    </graphicData>
+    <statOffsets>
+      <PlantWorkSpeed>0.05</PlantWorkSpeed>
+    </statOffsets>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>knob</symbol></li>
+        <li><symbol>spike</symbol></li>
+        <li><symbol>devil</symbol></li>
+        <li><symbol>demon</symbol></li>
+        <li><symbol>luci</symbol></li>
+        <li><symbol>beelze</symbol></li>
+        <li><symbol>hell</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>spike</symbol></li>
+        <li><symbol>vil</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneHeadboneBase">
+    <defName>Headbone_CenterHorn_Green</defName>
+    <label>center-horn - green</label>
+    <description>Carriers of this gene grow a single horn protruding from the center of the forehead.</description>
+    <iconPath>UI/Gene_HeadboneCenterhorn_Green</iconPath>
+    <graphicData>
+      <graphicPath>CenterHorn/CenterHorn</graphicPath>
+      <color>(67, 143, 0)</color>
+      <layer>PostHeadgear</layer>
+    </graphicData>
+    <statOffsets>
+      <PlantWorkSpeed>0.05</PlantWorkSpeed>
+    </statOffsets>
+    <symbolPack>
+      <prefixSymbols>
+        <li>
+          <symbol>rhino</symbol>
+          <weight>2</weight>
+        </li>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>knob</symbol></li>
+        <li><symbol>spike</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>spike</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneHeadboneBase">
+    <defName>Headbone_MiniHorns_Orange</defName>
+    <label>mini-horns - orange</label>
+    <description>Carriers of this gene grow two small horns protruding from the forehead.</description>
+    <iconPath>UI/Gene_HeadboneMinihorns_Orange</iconPath>
+    <graphicData>
+      <graphicPath>MiniHorns/MiniHorns</graphicPath>
+      <color>(224, 122, 13)</color>
+      <layer>PostHeadgear</layer>
+    </graphicData>
+    <statOffsets>
+      <TrainAnimalChance>0.05</TrainAnimalChance>
+    </statOffsets>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>knob</symbol></li>
+        <li><symbol>spike</symbol></li>
+        <li><symbol>devil</symbol></li>
+        <li><symbol>demon</symbol></li>
+        <li><symbol>luci</symbol></li>
+        <li><symbol>beelze</symbol></li>
+        <li><symbol>hell</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>spike</symbol></li>
+        <li><symbol>vil</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneHeadboneBase">
+    <defName>Headbone_CenterHorn_Orange</defName>
+    <label>center-horn - orange</label>
+    <description>Carriers of this gene grow a single horn protruding from the center of the forehead.</description>
+    <iconPath>UI/Gene_HeadboneCenterhorn_Orange</iconPath>
+    <graphicData>
+      <graphicPath>CenterHorn/CenterHorn</graphicPath>
+      <color>(224, 122, 13)</color>
+      <layer>PostHeadgear</layer>
+    </graphicData>
+    <statOffsets>
+      <TrainAnimalChance>0.05</TrainAnimalChance>
+    </statOffsets>
+    <symbolPack>
+      <prefixSymbols>
+        <li>
+          <symbol>rhino</symbol>
+          <weight>2</weight>
+        </li>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>knob</symbol></li>
+        <li><symbol>spike</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>spike</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneHeadboneBase">
+    <defName>Headbone_MiniHorns_Blue</defName>
+    <label>mini-horns - blue</label>
+    <description>Carriers of this gene grow two small horns protruding from the forehead.</description>
+    <iconPath>UI/Gene_HeadboneMinihorns_Blue</iconPath>
+    <graphicData>
+      <graphicPath>MiniHorns/MiniHorns</graphicPath>
+      <color>(39, 73, 135)</color>
+      <layer>PostHeadgear</layer>
+    </graphicData>
+    <statOffsets>
+      <EatingSpeed>0.05</EatingSpeed>
+    </statOffsets>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>knob</symbol></li>
+        <li><symbol>spike</symbol></li>
+        <li><symbol>devil</symbol></li>
+        <li><symbol>demon</symbol></li>
+        <li><symbol>luci</symbol></li>
+        <li><symbol>beelze</symbol></li>
+        <li><symbol>hell</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>spike</symbol></li>
+        <li><symbol>vil</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneHeadboneBase">
+    <defName>Headbone_CenterHorn_Blue</defName>
+    <label>center-horn - blue</label>
+    <description>Carriers of this gene grow a single horn protruding from the center of the forehead.</description>
+    <iconPath>UI/Gene_HeadboneCenterhorn_Blue</iconPath>
+    <graphicData>
+      <graphicPath>CenterHorn/CenterHorn</graphicPath>
+      <color>(39, 73, 135)</color>
+      <layer>PostHeadgear</layer>
+    </graphicData>
+    <statOffsets>
+      <EatingSpeed>0.05</EatingSpeed>
+    </statOffsets>
+    <symbolPack>
+      <prefixSymbols>
+        <li>
+          <symbol>rhino</symbol>
+          <weight>2</weight>
+        </li>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>knob</symbol></li>
+        <li><symbol>spike</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>spike</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneHeadboneBase">
+    <defName>Headbone_MiniHorns_Purple</defName>
+    <label>mini-horns - purple</label>
+    <description>Carriers of this gene grow two small horns protruding from the forehead.</description>
+    <iconPath>UI/Gene_HeadboneMinihorns_Purple</iconPath>
+    <graphicData>
+      <graphicPath>MiniHorns/MiniHorns</graphicPath>
+      <color>(131, 42, 156)</color>
+      <layer>PostHeadgear</layer>
+    </graphicData>
+    <statOffsets>
+      <BabyPlayGainFactor>0.05</BabyPlayGainFactor>
+    </statOffsets>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>knob</symbol></li>
+        <li><symbol>spike</symbol></li>
+        <li><symbol>devil</symbol></li>
+        <li><symbol>demon</symbol></li>
+        <li><symbol>luci</symbol></li>
+        <li><symbol>beelze</symbol></li>
+        <li><symbol>hell</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>spike</symbol></li>
+        <li><symbol>vil</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneHeadboneBase">
+    <defName>Headbone_CenterHorn_Purple</defName>
+    <label>center-horn - purple</label>
+    <description>Carriers of this gene grow a single horn protruding from the center of the forehead.</description>
+    <iconPath>UI/Gene_HeadboneCenterhorn_Purple</iconPath>
+    <graphicData>
+      <graphicPath>CenterHorn/CenterHorn</graphicPath>
+      <color>(131, 42, 156)</color>
+      <layer>PostHeadgear</layer>
+    </graphicData>
+    <statOffsets>
+      <BabyPlayGainFactor>0.05</BabyPlayGainFactor>
+    </statOffsets>
+    <symbolPack>
+      <prefixSymbols>
+        <li>
+          <symbol>rhino</symbol>
+          <weight>2</weight>
+        </li>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>knob</symbol></li>
+        <li><symbol>spike</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>spike</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneHeadboneBase">
+    <defName>Headbone_MiniHorns_Red</defName>
+    <label>mini-horns - red</label>
+    <description>Carriers of this gene grow two small horns protruding from the forehead.</description>
+    <iconPath>UI/Gene_HeadboneMinihorns_Red</iconPath>
+    <graphicData>
+      <graphicPath>MiniHorns/MiniHorns</graphicPath>
+      <color>(163, 37, 28)</color>
+      <layer>PostHeadgear</layer>
+    </graphicData>
+    <statOffsets>
+      <ConversionPower>0.05</ConversionPower>
+    </statOffsets>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>knob</symbol></li>
+        <li><symbol>spike</symbol></li>
+        <li><symbol>devil</symbol></li>
+        <li><symbol>demon</symbol></li>
+        <li><symbol>luci</symbol></li>
+        <li><symbol>beelze</symbol></li>
+        <li><symbol>hell</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>spike</symbol></li>
+        <li><symbol>vil</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneHeadboneBase">
+    <defName>Headbone_CenterHorn_Red</defName>
+    <label>center-horn red</label>
+    <description>Carriers of this gene grow a single horn protruding from the center of the forehead.</description>
+    <iconPath>UI/Gene_HeadboneCenterhorn_Red</iconPath>
+    <graphicData>
+      <graphicPath>CenterHorn/CenterHorn</graphicPath>
+      <color>(163, 37, 28)</color>
+      <layer>PostHeadgear</layer>
+    </graphicData>
+    <statOffsets>
+      <ConversionPower>0.05</ConversionPower>
+    </statOffsets>
+    <symbolPack>
+      <prefixSymbols>
+        <li>
+          <symbol>rhino</symbol>
+          <weight>2</weight>
+        </li>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>knob</symbol></li>
+        <li><symbol>spike</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>spike</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneHeadboneBase">
+    <defName>Headbone_CenterHorn_Pink</defName>
+    <label>center-horn - pink</label>
+    <description>Carriers of this gene grow a single horn protruding from the center of the forehead.</description>
+    <iconPath>UI/Gene_HeadboneCenterhorn_Pink</iconPath>
+    <graphicData>
+      <graphicPath>CenterHorn/CenterHorn</graphicPath>
+      <color>(224, 110, 177)</color>
+      <layer>PostHeadgear</layer>
+    </graphicData>
+    <statOffsets>
+      <Fertility>0.05</Fertility>
+    </statOffsets>
+    <symbolPack>
+      <prefixSymbols>
+        <li>
+          <symbol>rhino</symbol>
+          <weight>2</weight>
+        </li>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>knob</symbol></li>
+        <li><symbol>spike</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>spike</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneHeadboneBase">
+    <defName>Headbone_MiniHorns_Pink</defName>
+    <label>mini-horns - pink</label>
+    <description>Carriers of this gene grow two small horns protruding from the forehead.</description>
+    <iconPath>UI/Gene_HeadboneMinihorns_Pink</iconPath>
+    <graphicData>
+      <graphicPath>MiniHorns/MiniHorns</graphicPath>
+      <color>(224, 110, 177)</color>
+      <layer>PostHeadgear</layer>
+    </graphicData>
+    <statOffsets>
+      <Fertility>0.05</Fertility>
+    </statOffsets>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>knob</symbol></li>
+        <li><symbol>spike</symbol></li>
+        <li><symbol>devil</symbol></li>
+        <li><symbol>demon</symbol></li>
+        <li><symbol>luci</symbol></li>
+        <li><symbol>beelze</symbol></li>
+        <li><symbol>hell</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>spike</symbol></li>
+        <li><symbol>vil</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneHeadboneBase">
+    <defName>Headbone_CenterHorn_Mint</defName>
+    <label>center-horn - mint</label>
+    <description>Carriers of this gene grow a single horn protruding from the center of the forehead.</description>
+    <iconPath>UI/Gene_HeadboneCenterhorn_Mint</iconPath>
+    <graphicData>
+      <graphicPath>CenterHorn/CenterHorn</graphicPath>
+      <color>(94, 230, 144)</color>
+      <layer>PostHeadgear</layer>
+    </graphicData>
+    <statOffsets>
+      <DrugHarvestYield>0.05</DrugHarvestYield>
+    </statOffsets>
+    <symbolPack>
+      <prefixSymbols>
+        <li>
+          <symbol>rhino</symbol>
+          <weight>2</weight>
+        </li>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>knob</symbol></li>
+        <li><symbol>spike</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>spike</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneHeadboneBase">
+    <defName>Headbone_MiniHorns_Mint</defName>
+    <label>mini-horns - mint</label>
+    <description>Carriers of this gene grow two small horns protruding from the forehead.</description>
+    <iconPath>UI/Gene_HeadboneMinihorns_Mint</iconPath>
+    <graphicData>
+      <graphicPath>MiniHorns/MiniHorns</graphicPath>
+      <color>(94, 230, 144)</color>
+      <layer>PostHeadgear</layer>
+    </graphicData>
+    <statOffsets>
+      <DrugHarvestYield>0.05</DrugHarvestYield>
+    </statOffsets>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>knob</symbol></li>
+        <li><symbol>spike</symbol></li>
+        <li><symbol>devil</symbol></li>
+        <li><symbol>demon</symbol></li>
+        <li><symbol>luci</symbol></li>
+        <li><symbol>beelze</symbol></li>
+        <li><symbol>hell</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>spike</symbol></li>
+        <li><symbol>vil</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+  
+
+  <GeneDef ParentName="GeneHeadboneBase">
+    <defName>Headbone_CenterHorn_Sky</defName>
+    <label>center-horn - sky</label>
+    <description>Carriers of this gene grow a single horn protruding from the center of the forehead.</description>
+    <iconPath>UI/Gene_HeadboneCenterhorn_Sky</iconPath>
+    <graphicData>
+      <graphicPath>CenterHorn/CenterHorn</graphicPath>
+      <color>(113, 204, 227)</color>
+      <layer>PostHeadgear</layer>
+    </graphicData>
+    <statOffsets>
+      <CleaningSpeed>0.05</CleaningSpeed>
+    </statOffsets>
+    <symbolPack>
+      <prefixSymbols>
+        <li>
+          <symbol>rhino</symbol>
+          <weight>2</weight>
+        </li>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>knob</symbol></li>
+        <li><symbol>spike</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>spike</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneHeadboneBase">
+    <defName>Headbone_MiniHorns_Sky</defName>
+    <label>mini-horns - sky</label>
+    <description>Carriers of this gene grow two small horns protruding from the forehead.</description>
+    <iconPath>UI/Gene_HeadboneMinihorns_Sky</iconPath>
+    <graphicData>
+      <graphicPath>MiniHorns/MiniHorns</graphicPath>
+      <color>(113, 204, 227)</color>
+      <layer>PostHeadgear</layer>
+    </graphicData>
+    <statOffsets>
+      <CleaningSpeed>0.05</CleaningSpeed>
+    </statOffsets>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>knob</symbol></li>
+        <li><symbol>spike</symbol></li>
+        <li><symbol>devil</symbol></li>
+        <li><symbol>demon</symbol></li>
+        <li><symbol>luci</symbol></li>
+        <li><symbol>beelze</symbol></li>
+        <li><symbol>hell</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>spike</symbol></li>
+        <li><symbol>vil</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+  
+  <GeneDef ParentName="GeneHeadboneBase">
+    <defName>Headbone_CenterHorn_Haygrass</defName>
+    <label>center-horn - haygrass</label>
+    <description>Carriers of this gene grow a single horn protruding from the center of the forehead.</description>
+    <iconPath>UI/Gene_HeadboneCenterhorn_Haygrass</iconPath>
+    <graphicData>
+      <graphicPath>CenterHorn/CenterHorn</graphicPath>
+      <color>(163, 232, 102)</color>
+      <layer>PostHeadgear</layer>
+    </graphicData>
+    <statOffsets>
+      <PlantHarvestYield>0.05</PlantHarvestYield>
+    </statOffsets>
+    <symbolPack>
+      <prefixSymbols>
+        <li>
+          <symbol>rhino</symbol>
+          <weight>2</weight>
+        </li>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>knob</symbol></li>
+        <li><symbol>spike</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>spike</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneHeadboneBase">
+    <defName>Headbone_MiniHorns_Haygrass</defName>
+    <label>mini-horns - haygrass</label>
+    <description>Carriers of this gene grow two small horns protruding from the forehead.</description>
+    <iconPath>UI/Gene_HeadboneMinihorns_Haygrass</iconPath>
+    <graphicData>
+      <graphicPath>MiniHorns/MiniHorns</graphicPath>
+      <color>(163, 232, 102)</color>
+      <layer>PostHeadgear</layer>
+    </graphicData>
+    <statOffsets>
+      <PlantHarvestYield>0.05</PlantHarvestYield>
+    </statOffsets>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>knob</symbol></li>
+        <li><symbol>spike</symbol></li>
+        <li><symbol>devil</symbol></li>
+        <li><symbol>demon</symbol></li>
+        <li><symbol>luci</symbol></li>
+        <li><symbol>beelze</symbol></li>
+        <li><symbol>hell</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>spike</symbol></li>
+        <li><symbol>vil</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+  
+  <GeneDef ParentName="GeneHeadboneBase">
+    <defName>Headbone_CenterHorn_Rose</defName>
+    <label>center-horn - rose</label>
+    <description>Carriers of this gene grow a single horn protruding from the center of the forehead.</description>
+    <iconPath>UI/Gene_HeadboneCenterhorn_Rose</iconPath>
+    <graphicData>
+      <graphicPath>CenterHorn/CenterHorn</graphicPath>
+      <color>(209, 29, 101)</color>
+      <layer>PostHeadgear</layer>
+    </graphicData>
+    <lovinMTBFactor>0.05</lovinMTBFactor>
+    <symbolPack>
+      <prefixSymbols>
+        <li>
+          <symbol>rhino</symbol>
+          <weight>2</weight>
+        </li>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>knob</symbol></li>
+        <li><symbol>spike</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>spike</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneHeadboneBase">
+    <defName>Headbone_MiniHorns_Rose</defName>
+    <label>mini-horns - rose</label>
+    <description>Carriers of this gene grow two small horns protruding from the forehead.</description>
+    <iconPath>UI/Gene_HeadboneMinihorns_Rose</iconPath>
+    <graphicData>
+      <graphicPath>MiniHorns/MiniHorns</graphicPath>
+      <color>(209, 29, 101)</color>
+      <layer>PostHeadgear</layer>
+    </graphicData>
+    <lovinMTBFactor>0.05</lovinMTBFactor>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>knob</symbol></li>
+        <li><symbol>spike</symbol></li>
+        <li><symbol>devil</symbol></li>
+        <li><symbol>demon</symbol></li>
+        <li><symbol>luci</symbol></li>
+        <li><symbol>beelze</symbol></li>
+        <li><symbol>hell</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>spike</symbol></li>
+        <li><symbol>vil</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+  
+  <GeneDef ParentName="GeneHeadboneBase">
+    <defName>Headbone_CenterHorn_Nautic</defName>
+    <label>center-horn - nautic</label>
+    <description>Carriers of this gene grow a single horn protruding from the center of the forehead.</description>
+    <iconPath>UI/Gene_HeadboneCenterhorn_Nautic</iconPath>
+    <graphicData>
+      <graphicPath>CenterHorn/CenterHorn</graphicPath>
+      <color>(43, 36, 117)</color>
+      <layer>PostHeadgear</layer>
+    </graphicData>
+    <statOffsets>
+      <SmoothingSpeed>0.05</SmoothingSpeed>
+    </statOffsets>
+    <symbolPack>
+      <prefixSymbols>
+        <li>
+          <symbol>rhino</symbol>
+          <weight>2</weight>
+        </li>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>knob</symbol></li>
+        <li><symbol>spike</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>spike</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneHeadboneBase">
+    <defName>Headbone_MiniHorns_Nautic</defName>
+    <label>mini-horns - nautic</label>
+    <description>Carriers of this gene grow two small horns protruding from the forehead.</description>
+    <iconPath>UI/Gene_HeadboneMinihorns_Nautic</iconPath>
+    <graphicData>
+      <graphicPath>MiniHorns/MiniHorns</graphicPath>
+      <color>(43, 36, 117)</color>
+      <layer>PostHeadgear</layer>
+    </graphicData>
+    <statOffsets>
+      <SmoothingSpeed>0.05</SmoothingSpeed>
+    </statOffsets>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>knob</symbol></li>
+        <li><symbol>spike</symbol></li>
+        <li><symbol>devil</symbol></li>
+        <li><symbol>demon</symbol></li>
+        <li><symbol>luci</symbol></li>
+        <li><symbol>beelze</symbol></li>
+        <li><symbol>hell</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>spike</symbol></li>
+        <li><symbol>vil</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+  
+  <GeneDef ParentName="GeneHeadboneBase">
+    <defName>Headbone_CenterHorn_White</defName>
+    <label>center-horn - white</label>
+    <description>Carriers of this gene grow a single horn protruding from the center of the forehead.</description>
+    <iconPath>UI/Gene_HeadboneCenterhorn_White</iconPath>
+    <graphicData>
+      <graphicPath>CenterHorn/CenterHorn</graphicPath>
+      <color>(230, 242, 247)</color>
+      <layer>PostHeadgear</layer>
+    </graphicData>
+    <statOffsets>
+      <MedicalTendSpeed>0.05</MedicalTendSpeed>
+    </statOffsets>
+    <symbolPack>
+      <prefixSymbols>
+        <li>
+          <symbol>rhino</symbol>
+          <weight>2</weight>
+        </li>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>knob</symbol></li>
+        <li><symbol>spike</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>spike</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneHeadboneBase">
+    <defName>Headbone_MiniHorns_White</defName>
+    <label>mini-horns - white</label>
+    <description>Carriers of this gene grow two small horns protruding from the forehead.</description>
+    <iconPath>UI/Gene_HeadboneMinihorns_White</iconPath>
+    <graphicData>
+      <graphicPath>MiniHorns/MiniHorns</graphicPath>
+      <color>(230, 242, 247)</color>
+      <layer>PostHeadgear</layer>
+    </graphicData>
+    <statOffsets>
+      <MedicalTendSpeed>0.05</MedicalTendSpeed>
+    </statOffsets>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>knob</symbol></li>
+        <li><symbol>spike</symbol></li>
+        <li><symbol>devil</symbol></li>
+        <li><symbol>demon</symbol></li>
+        <li><symbol>luci</symbol></li>
+        <li><symbol>beelze</symbol></li>
+        <li><symbol>hell</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>spike</symbol></li>
+        <li><symbol>vil</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneHeadboneBase">
+    <defName>Headbone_CenterHorn_Black</defName>
+    <label>center-horn - black</label>
+    <description>Carriers of this gene grow a single horn protruding from the center of the forehead.</description>
+    <iconPath>UI/Gene_HeadboneCenterhorn_Black</iconPath>
+    <graphicData>
+      <graphicPath>CenterHorn/CenterHorn</graphicPath>
+      <color>(25, 25, 26)</color>
+      <layer>PostHeadgear</layer>
+    </graphicData>
+    <statOffsets>
+      <MentalBreakThreshold>-0.05</MentalBreakThreshold>
+    </statOffsets>
+    <symbolPack>
+      <prefixSymbols>
+        <li>
+          <symbol>rhino</symbol>
+          <weight>2</weight>
+        </li>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>knob</symbol></li>
+        <li><symbol>spike</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>spike</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneHeadboneBase">
+    <defName>Headbone_MiniHorns_Black</defName>
+    <label>mini-horns - black</label>
+    <description>Carriers of this gene grow two small horns protruding from the forehead.</description>
+    <iconPath>UI/Gene_HeadboneMinihorns_Black</iconPath>
+    <graphicData>
+      <graphicPath>MiniHorns/MiniHorns</graphicPath>
+      <color>(25, 25, 26)</color>
+      <layer>PostHeadgear</layer>
+    </graphicData>
+    <statOffsets>
+      <MentalBreakThreshold>-0.05</MentalBreakThreshold>
+    </statOffsets>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>knob</symbol></li>
+        <li><symbol>spike</symbol></li>
+        <li><symbol>devil</symbol></li>
+        <li><symbol>demon</symbol></li>
+        <li><symbol>luci</symbol></li>
+        <li><symbol>beelze</symbol></li>
+        <li><symbol>hell</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>spike</symbol></li>
+        <li><symbol>vil</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneHeadboneBase">
+    <defName>Headbone_CenterHorn_Gold</defName>
+    <label>center-horn - gold</label>
+    <description>Carriers of this gene grow a single horn protruding from the center of the forehead.</description>
+    <iconPath>UI/Gene_HeadboneCenterhorn_Gold</iconPath>
+    <graphicData>
+      <graphicPath>CenterHorn/CenterHorn</graphicPath>
+      <color>(242, 199, 5)</color>
+      <layer>PostHeadgear</layer>
+    </graphicData>
+    <statOffsets>
+      <MiningSpeed>0.05</MiningSpeed>
+    </statOffsets>
+    <symbolPack>
+      <prefixSymbols>
+        <li>
+          <symbol>rhino</symbol>
+          <weight>2</weight>
+        </li>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>knob</symbol></li>
+        <li><symbol>spike</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>spike</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneHeadboneBase">
+    <defName>Headbone_MiniHorns_Gold</defName>
+    <label>mini-horns - gold</label>
+    <description>Carriers of this gene grow two small horns protruding from the forehead.</description>
+    <iconPath>UI/Gene_HeadboneMinihorns_Gold</iconPath>
+    <graphicData>
+      <graphicPath>MiniHorns/MiniHorns</graphicPath>
+      <color>(242, 199, 5)</color>
+      <layer>PostHeadgear</layer>
+    </graphicData>
+    <statOffsets>
+      <MiningSpeed>0.05</MiningSpeed>
+    </statOffsets>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>knob</symbol></li>
+        <li><symbol>spike</symbol></li>
+        <li><symbol>devil</symbol></li>
+        <li><symbol>demon</symbol></li>
+        <li><symbol>luci</symbol></li>
+        <li><symbol>beelze</symbol></li>
+        <li><symbol>hell</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>spike</symbol></li>
+        <li><symbol>vil</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneHeadboneBase">
+    <defName>Headbone_CenterHorn_Jungle</defName>
+    <label>center-horn - jungle</label>
+    <description>Carriers of this gene grow a single horn protruding from the center of the forehead.</description>
+    <iconPath>UI/Gene_HeadboneCenterhorn_Jungle</iconPath>
+    <graphicData>
+      <graphicPath>CenterHorn/CenterHorn</graphicPath>
+      <color>(61, 102, 28)</color>
+      <layer>PostHeadgear</layer>
+    </graphicData>
+    <statOffsets>
+      <DrugHarvestYield>0.05</DrugHarvestYield>
+    </statOffsets>
+    <symbolPack>
+      <prefixSymbols>
+        <li>
+          <symbol>rhino</symbol>
+          <weight>2</weight>
+        </li>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>knob</symbol></li>
+        <li><symbol>spike</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>spike</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneHeadboneBase">
+    <defName>Headbone_MiniHorns_Jungle</defName>
+    <label>mini-horns - jungle</label>
+    <description>Carriers of this gene grow two small horns protruding from the forehead.</description>
+    <iconPath>UI/Gene_HeadboneMinihorns_Jungle</iconPath>
+    <graphicData>
+      <graphicPath>MiniHorns/MiniHorns</graphicPath>
+      <color>(61, 102, 28)</color>
+      <layer>PostHeadgear</layer>
+    </graphicData>
+    <statOffsets>
+      <DrugHarvestYield>0.05</DrugHarvestYield>
+    </statOffsets>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>knob</symbol></li>
+        <li><symbol>spike</symbol></li>
+        <li><symbol>devil</symbol></li>
+        <li><symbol>demon</symbol></li>
+        <li><symbol>luci</symbol></li>
+        <li><symbol>beelze</symbol></li>
+        <li><symbol>hell</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>spike</symbol></li>
+        <li><symbol>vil</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneHeadboneBase">
+    <defName>Headbone_CenterHorn_Lava</defName>
+    <label>center-horn - lava</label>
+    <description>Carriers of this gene grow a single horn protruding from the center of the forehead.</description>
+    <iconPath>UI/Gene_HeadboneCenterhorn_Lava</iconPath>
+    <graphicData>
+      <graphicPath>CenterHorn/CenterHorn</graphicPath>
+      <color>(201, 20, 26)</color>
+      <layer>PostHeadgear</layer>
+    </graphicData>
+    <statOffsets>
+      <MoveSpeed>0.05</MoveSpeed>
+    </statOffsets>
+    <symbolPack>
+      <prefixSymbols>
+        <li>
+          <symbol>rhino</symbol>
+          <weight>2</weight>
+        </li>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>knob</symbol></li>
+        <li><symbol>spike</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>spike</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneHeadboneBase">
+    <defName>Headbone_MiniHorns_Lava</defName>
+    <label>mini-horns - lava</label>
+    <description>Carriers of this gene grow two small horns protruding from the forehead.</description>
+    <iconPath>UI/Gene_HeadboneMinihorns_Lava</iconPath>
+    <graphicData>
+      <graphicPath>MiniHorns/MiniHorns</graphicPath>
+      <color>(201, 20, 26)</color>
+      <layer>PostHeadgear</layer>
+    </graphicData>
+    <statOffsets>
+      <MoveSpeed>0.05</MoveSpeed>
+    </statOffsets>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>knob</symbol></li>
+        <li><symbol>spike</symbol></li>
+        <li><symbol>devil</symbol></li>
+        <li><symbol>demon</symbol></li>
+        <li><symbol>luci</symbol></li>
+        <li><symbol>beelze</symbol></li>
+        <li><symbol>hell</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>spike</symbol></li>
+        <li><symbol>vil</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneHeadboneBase">
+    <defName>Headbone_CenterHorn_Ender</defName>
+    <label>center-horn - ender</label>
+    <description>Carriers of this gene grow a single horn protruding from the center of the forehead.</description>
+    <iconPath>UI/Gene_HeadboneCenterhorn_Ender</iconPath>
+    <graphicData>
+      <graphicPath>CenterHorn/CenterHorn</graphicPath>
+      <color>(199, 65, 217)</color>
+      <layer>PostHeadgear</layer>
+    </graphicData>
+    <statOffsets>
+      <MiningYield>0.05</MiningYield>
+    </statOffsets>
+    <symbolPack>
+      <prefixSymbols>
+        <li>
+          <symbol>rhino</symbol>
+          <weight>2</weight>
+        </li>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>knob</symbol></li>
+        <li><symbol>spike</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>spike</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneHeadboneBase">
+    <defName>Headbone_MiniHorns_Ender</defName>
+    <label>mini-horns - ender</label>
+    <description>Carriers of this gene grow two small horns protruding from the forehead.</description>
+    <iconPath>UI/Gene_HeadboneMinihorns_Ender</iconPath>
+    <graphicData>
+      <graphicPath>MiniHorns/MiniHorns</graphicPath>
+      <color>(199, 65, 217)</color>
+      <layer>PostHeadgear</layer>
+    </graphicData>
+    <statOffsets>
+      <MiningYield>0.05</MiningYield>
+    </statOffsets>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>knob</symbol></li>
+        <li><symbol>spike</symbol></li>
+        <li><symbol>devil</symbol></li>
+        <li><symbol>demon</symbol></li>
+        <li><symbol>luci</symbol></li>
+        <li><symbol>beelze</symbol></li>
+        <li><symbol>hell</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>horn</symbol></li>
+        <li><symbol>spike</symbol></li>
+        <li><symbol>vil</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+  
 
 </Defs>
