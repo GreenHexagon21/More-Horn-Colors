@@ -11,7 +11,7 @@
         <li>ludeon.rimworld.biotech</li>
     </loadAfter>
     <description>
-        Adds new percepts using only excisting XML modifiers. It's just more percepts to have fun with. Each percept has two variations, one complex (more balanced), and one simplified. 
+        Adds more horn colors and a bit of spice to them, feel free to fork and change, the code can be found at: https://github.com/GreenHexagon21/More-Horn-Colors 
     </description>
 
 </ModMetaData>
